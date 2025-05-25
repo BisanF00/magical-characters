@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>Hogwarts School 🪄
+    <div class="filter-characters">
+    <button onclick="houseList()" id="filter-dropdown">Houses</button>
+    <div id="filterContent">
+      <div class="dropdown-item" data-value="allhouses">All houses</div>
+      <div class="dropdown-item" data-value="gryffindor">Gryffindor</div>
+      <div class="dropdown-item" data-value="slytherin">Slytherin</div>
+      <div class="dropdown-item" data-value="hufflepuff">Hufflepuff</div>
+      <div class="dropdown-item" data-value="ravenclaw">Ravenclaw</div>
+    </div>
+  </div>
+  </header>
+
+  <h1>Magical Characters</h1>
+
+  <div id="character-cards"></div>
+
+  <!-- <button id="loadMoreBtn">Load More</button> -->
+
+  <footer>© 2025 Bisan Fararjeh. All rights reserved.</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
